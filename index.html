@@ -13,22 +13,22 @@
       <main class="bg-[#fff9f2] min-h-screen w-full">
         <header class="fixed top-3 w-full flex justify-center">
           <div
-            class="flex flex-row border shadow border-gray-700/20 rounded-md justify-between gap-4 items-center py-2 px-4">
-            <ul class="flex flex-row gap-2">
+            class="flex flex-row border shadow border-gray-700/20 rounded-md justify-between gap-8 items-center py-2 px-4">
+            <ul class="flex flex-row gap-6">
               <li class="text-sm">
                 <a href="#home">Home</a>
               </li>
               <li class="text-sm">
-                <a href="#home">Features</a>
+                <a href="#features">Features</a>
               </li>
               <li class="text-sm">
-                <a href="#home">Pricing</a>
+                <a href="#pricing">Pricing</a>
               </li>
               <li class="text-sm">
-                <a href="#home">Faq</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li class="text-sm">
-                <a href="#home">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
 
@@ -42,6 +42,86 @@
             </div>
           </div>
         </header>
+
+        <section class="flex flex-row items-center min-h-screen w-full">
+          <div class="flex flex-row max-w-7xl mx-auto w-full items-center justify-between">
+            <div class="flex flex-col gap-3">
+              <h1 class="text-6xl font-semibold tracking-tight mb-2">Direct Home Healthcare</h1>
+
+              <div class="flex w-fit items-stretch p-0.5 bg-[#efece6] rounded-lg">
+                <button
+                  class="inline-flex cursor-pointer items-center justify-center gap-2 bg-[#fff9f2] text-gray-600 rounded-lg! border-0 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground h-8 px-3 bg-[#fff9f2] text-gray-600 rounded-lg">
+                  Search for health workers
+                </button>
+                <button disabled
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] hover:bg-accent hover:text-accent-foreground h-8 px-3 flex flex-row items-center justify-center">
+                  <span class="text-gray-600">Find a Clinic</span>
+                  <span
+                    class="inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-normal w-fit whitespace-nowrap shrink-0 gap-1 border-transparent text-white bg-[#dd9cad] leading-none h-auto">
+                    soon
+                  </span>
+                </button>
+              </div>
+
+              <div
+                class="relative flex w-full items-center rounded-md border shadow border-gray-700/20 h-9 min-w-0 focus-within:border-ring focus-within:ring-ring/50 focus-within:ring-[3px]">
+                <div class="flex h-auto items-center justify-center gap-2 py-1.5 text-sm font-medium pl-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="text-gray-700/50">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                  </svg>
+                </div>
+                <input type="text" placeholder="Search for a name, service, or anything..."
+                  class="flex-1 h-full w-full min-w-0 rounded-md bg-transparent px-3 py-1 text-base outline-none placeholder:text-muted-foreground md:text-sm border-0 focus-visible:ring-0 focus-visible:outline-none" />
+              </div>
+
+              <div class="flex flex-row gap-2">
+                <button
+                  class="inline-flex items-center hover:bg-blue-50/50 cursor-pointer justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-6 px-2 border shadow border-gray-700/20 text-gray-600 rounded-md font-medium text-xs">
+                  <span>Child care</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+                <button
+                  class="inline-flex items-center hover:bg-blue-50/50 cursor-pointer justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-6 px-2 border shadow border-gray-700/20 text-gray-600 rounded-md font-medium text-xs">
+                  <span>Elderly care</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+                <button
+                  class="inline-flex items-center hover:bg-blue-50/50 cursor-pointer justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-6 px-2 border shadow border-gray-700/20 text-gray-600 rounded-md font-medium text-xs">
+                  <span>General Consultant</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+                <button
+                  class="inline-flex items-center hover:bg-blue-50/50 cursor-pointer justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-6 px-2 border shadow border-gray-700/20 text-gray-600 rounded-md font-medium text-xs">
+                  <span>Injection administration</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="w-md aspect-square">
+              <img src="./hero-img.png" alt="Hero image" class="w-full h-full" />
+            </div>
+          </div>
+        </section>
       </main>
     </div>
     <script type="module" src="/src/main.js"></script>
